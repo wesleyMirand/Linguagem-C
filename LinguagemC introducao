@@ -1,0 +1,95 @@
+ Nasceu em 1970, criador Dennis Ritchie, linguagem de Case Sensitive onde "SOMA, soma, Soma" se diferenciam, tenque ser
+uma unica palavra em maiuscula ou minuscula para var unica. Linguagem Struturada composta por blocos de codigos, que 
+ligam por três mecanismo: Sequencia, Seleção e Interação. Cada um tem um ponto especifico de inicio e fim, exemplo:
+
+SEQUENCIA: 
+Passos de processamento, são necessários para o programa desenvolvido. Segmento do programa, faça primeiro
+a tarefa "A", depois "B", e use o resultado da "B" e faça com "C". É tipo receita de bolo, ordem de ações 
+" Tarefa A-> Tarefa B -> ". Lófica se for verdade passa, se não o A passa o B.
+
+SELEÇÃO:
+ Seleção podemos usar um exemplo de pular de paraquedas:
+
+                                      PULAR DE PARAQUEDAS
+                                  ---------TESTE--------------
+                                  |                          |
+                              TAREFA A                 TAREFA B     
+                  SE TIVER PARAQUEDAS PULA          NÃO TEM PARAQUEDAS NÃO PULA
+
+INTERAÇÃO:
+ Permite ser executavel, repita somente, enquanto for verdadeira executa ou ao contrario.
+
+                          SUBIR ATÉ A ALTURA QUE POSSA PULAR COM PARAQUEDAS
+                                                     |
+SUBIR ATÉ A ALTURA QUE POSSA PULAR COM PARAQUEDA    TAREFA A
+                                                     |
+                                                     TESTE > NÃO ATINGIU A ALTURA AINDA? CONTINUA SUBINDO ^ 
+                                                      |
+                                   ATINGIU?SIM    TAREFA B  PULAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+DOUBLE , INT , FLOAT , SHORT
+PRINCIPAIS TIPOS DE DADOS USADOS EM C
+
+Tipos constantes  e var, são elementos básicos, todos programas trabalham manipulando var e constante, espaço reservado
+pra expressar tal valor.
+ Dados  tem 5 tipos básicos na linguagem "C", primeiro tipo é chamado de  caracter: Asc, Char , Meu char = '5', 
+%-> qual tipo de var, tipos inteiro int "i ou d".
+ Float: guarda numeros quebrados, flutuantes.
+3 principios: 
+.DRY ou Dont repeat your self , não se repita: aquele pedaço do seu codigo, que ele seja entendivel e 
+possar se repetir em varios pedaços de codigo.
+.Die ou Duplication, duplicação é algo ruim para o codigo.
+.Kiss> mantendo sempre simples, não inventar muita coisa e deixar entendivel oque escreveu.
+
+                                    OPERADORES
+           incremento, Decremento
+          adição ou subtração
+
+Se as conversoes forem possiveis, elas vão seguir regra. Todo os "CHARS FORTES" e  "INT" são convertidos para INT,
+quando os "INT" estiverem envolvido e os "FLOATS" são convertido para  tipo de "Double", então passa a ser "operadores"
+ com tipos diferente. Se um deles for  do tipo "Long, Double" o outro sera convertido "Long, Double".Faz conversão
+para um tipo possivel  "Double" converte para "Double", "long" para "long",  dois operadores sempre faz conversão.
+Numero int com resultado float, se resultado :
+                   num 3 , resultado
+                 inteiro        float
+               sempre convert o outro para int.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
