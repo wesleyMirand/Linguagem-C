@@ -1,2 +1,2 @@
-# OneDayCode-C-
+# Curso
 linguagem C 
