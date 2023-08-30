@@ -1,0 +1,38 @@
+Laço "Do-While": Repetição Pós-Testada
+
+A estrutura de repetição "do-while" é uma variação da construção "while", com algumas diferenças fundamentais em relação à verificação da condição. Ela é útil quando você deseja executar um bloco de código pelo menos uma vez, independentemente da condição, e depois repetir o bloco enquanto a condição for verdadeira.
+
+Sintaxe:
+
+do {
+    // Bloco de código a ser repetido
+} while (condição);
+
+Aqui estão alguns pontos importantes sobre o laço "do-while":
+
+O bloco de código é executado pelo menos uma vez, mesmo que a condição inicial seja falsa.
+Após a execução do bloco de código, a condição é verificada. Se for verdadeira, o bloco de código é executado novamente. Caso contrário, a execução é interrompida.
+Diferentemente do "while", onde a condição é verificada antes da execução, o "do-while" verifica a condição após a primeira execução.
+O "do-while" é uma excelente escolha quando você deseja garantir que o bloco de código seja executado pelo menos uma vez, independentemente da condição.
+Comparação com "While":
+
+Uma das principais diferenças entre o "do-while" e o "while" é que o último pode nunca executar o bloco de código se a condição for falsa desde o início. Por outro lado, o "do-while" garante a execução do bloco pelo menos uma vez, independentemente da condição.
+
+Exemplo:
+
+#include <stdio.h>
+
+int main() {
+    int contador = 1;
+
+    do {
+        printf("Contagem: %d\n", contador);
+        contador++;
+    } while (contador <= 10);
+
+    return 0;
+}
+
+Neste exemplo, o bloco de código é executado repetidamente enquanto o valor do contador for menor ou igual a 10. Mesmo que o contador seja maior que 10 inicialmente, o bloco será executado pelo menos uma vez.
+
+Em resumo, o laço "do-while" é uma ferramenta útil para garantir a execução de um bloco de código pelo menos uma vez e, em seguida, repeti-lo com base em uma condição. É uma variação importante da estrutura "while", que oferece uma abordagem ligeiramente diferente para criar repetições controladas.
