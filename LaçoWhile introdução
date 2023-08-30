@@ -1,0 +1,34 @@
+Laço While: Repetição Pré-Testada
+
+O laço "while" é uma estrutura de repetição simples e eficaz em que o bloco de código é executado repetidamente desde que uma condição seja verdadeira. Essa estrutura é útil quando o bloco de código deve ser executado imediatamente, se a condição for verdadeira na primeira avaliação.
+
+Sintaxe:
+while (condição) {
+    // Bloco de código a ser repetido
+}
+
+Aqui estão alguns aspectos importantes do laço "while":
+
+O bloco de código é executado somente se a condição fornecida for verdadeira.
+Antes de cada iteração, a condição é verificada. Se for verdadeira, o bloco de código é executado. Caso contrário, a execução do bloco é interrompida.
+É crucial garantir que a condição do "while" mude dentro do bloco de código para evitar um loop infinito.
+O "while" é especialmente útil quando você já tem um valor inicial e deseja executar o bloco de código enquanto a condição permanecer verdadeira.
+É importante garantir que o bloco de código altere a condição de teste, caso contrário, o loop pode ser infinito.
+Exemplo:
+
+#include <stdio.h>
+
+int main() {
+    int contador = 1;
+
+    while (contador <= 10) {
+        printf("Contagem: %d\n", contador);
+        contador++; // Incremento do contador
+    }
+
+    return 0;
+}
+
+Neste exemplo, o bloco de código é executado repetidamente enquanto o valor do contador for menor ou igual a 10. A cada iteração, o contador é incrementado, o que eventualmente fará com que a condição seja falsa e o loop pare.
+
+Em resumo, o laço "while" é uma ferramenta valiosa para criar repetições controladas por condições em seu código, garantindo uma execução flexível e eficiente de um bloco de código.
