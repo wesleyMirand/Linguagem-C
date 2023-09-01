@@ -1,0 +1,51 @@
+Conceitos de Vetores:
+
+Definição e Utilização:
+
+Vetores são estruturas de dados que permitem armazenar vários elementos do mesmo tipo sob um único nome de variável.
+Útil para armazenar e manipular coleções de valores relacionados.
+Declaração:
+
+Vetores são declarados especificando o tipo de dado que eles vão conter e o número de elementos.
+Exemplo: int MeuVetor[5]; declara um vetor de inteiros com 5 elementos.
+Índices e Acesso:
+
+Os elementos de um vetor são acessados por índices numéricos.
+Os índices começam em 0 e vão até o tamanho do vetor menos 1.
+Exemplo: MeuVetor[0] acessa o primeiro elemento, MeuVetor[4] acessa o quinto elemento.
+Manipulação:
+
+Vetores podem ser utilizados para realizar várias operações, como cálculos, armazenamento de dados e organização de informações.
+Exemplo: Calcular a média de um conjunto de números.
+Leitura e Escrita:
+
+É possível ler e escrever elementos de um vetor usando loops ou operações diretas.
+Exemplo: Preencher um vetor com valores lidos do usuário.
+Limitações:
+
+O tamanho de um vetor é fixo após a declaração e não pode ser alterado facilmente.
+Vetores podem ocupar mais memória do que o necessário se não forem completamente preenchidos.
+Exemplo de Leitura de Nomes:
+
+Para ler um conjunto de nomes, você pode usar um loop para ler strings e armazená-las em um vetor de strings.
+Exemplo: char nomes[10][50]; declara um vetor de 10 strings, cada uma com até 50 caracteres.
+
+Suponha que temos um vetor de tamanho 5 chamado MeuVetor:
+MeuVetor: [0, 0, 0, 0, 0]
+
+Os índices desse vetor vão de 0 a 4. A última posição seria a posição 4 (ou M-1, onde M é o tamanho do vetor).
+
+Para um vetor com 100 posições:
+Índices:    0   1   2   3   ...  97  98  99
+Valores:    1   2   3   4   ...  98  99  100
+
+Nesse caso, o vetor começa no índice 0 com o valor 1 e termina no índice 99 com o valor 100. Isso ocorre porque o último índice é sempre o tamanho do vetor menos 1 (100 - 1 = 99).
+
+Lembrando que esses exemplos são baseados em vetores numéricos. Para vetores de caracteres, como mencionado no exemplo de leitura de nomes, você teria algo como:
+char nomes[3][20]; // Vetor de 3 strings com até 20 caracteres cada
+
+Isso criaria um vetor de nomes com três elementos, e cada elemento pode conter até 20 caracteres. Acessar elementos seria semelhante:
+nomes[0] = "Alice";
+nomes[1] = "Bob";
+nomes[2] = "Charlie";
+Nesse caso, nomes[0] armazenaria a string "Alice", nomes[1] armazenaria "Bob" e assim por diante.
